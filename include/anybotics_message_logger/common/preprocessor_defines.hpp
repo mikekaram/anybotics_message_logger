@@ -47,7 +47,7 @@
 #include <sstream>
 #include <stdarg.h>     /* va_list, va_start, va_arg, va_end */
 
-#include "message_logger/common/source_file_pos.hpp"
+#include "anybotics_message_logger/common/source_file_pos.hpp"
 
 //! Macros for setting the severity level during compilation.
 #define MELO_SEVERITY_DEBUG 0 // Keep all logs.

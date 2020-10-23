@@ -1,6 +1,6 @@
 cmake_minimum_required (VERSION 2.8)
 
-project(message_logger)
+project(anybotics_message_logger)
 
 # Find Catkin
 find_package(catkin REQUIRED)
@@ -12,7 +12,7 @@ cmake_dependent_option(MELO_USE_COUT "Use std::cout" OFF
 # Configure header file before catkin_package
 catkin_destinations()
 configure_file(
-  include/message_logger/log/log_messages_backend_config.hpp.in
+  include/anybotics_message_logger/log/log_messages_backend_config.hpp.in
   ${CATKIN_DEVEL_PREFIX}/${CATKIN_PACKAGE_INCLUDE_DESTINATION}/log/log_messages_backend_config.hpp @ONLY
 )
 

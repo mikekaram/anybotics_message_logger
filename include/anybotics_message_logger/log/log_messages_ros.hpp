@@ -42,7 +42,7 @@
 
 #include <ros/console.h>
 
-#include "message_logger/log/log_messages_backend.hpp"
+#include "anybotics_message_logger/log/log_messages_backend.hpp"
 
 namespace message_logger {
 namespace log {

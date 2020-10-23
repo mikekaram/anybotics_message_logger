@@ -74,7 +74,7 @@
 #pragma once
 
 #include <cstdint>
-#include "message_logger/time/Time.hpp"
+#include "anybotics_message_logger/time/Time.hpp"
 
 namespace message_logger {
 namespace time {

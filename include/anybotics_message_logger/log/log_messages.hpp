@@ -40,8 +40,8 @@
 */
 #pragma once
 
-#include "message_logger/common/preprocessor_defines.hpp"
-#include "message_logger/log/log_messages_backend.hpp"
+#include "anybotics_message_logger/common/preprocessor_defines.hpp"
+#include "anybotics_message_logger/log/log_messages_backend.hpp"
 
 namespace message_logger {
 namespace log {
